@@ -22,7 +22,7 @@ Tracked without being tracked on Nuxt with [Ackee analytics](https://ackee.elect
 
 [Ackee analytics](https://ackee.electerious.com) is a self-hosted, Node.js based analytics tool that has an incentive on privacy.
 
-You can set up your own Ackee instance pretty easily on [Netlify](https://docs.ackee.electerious.com/#/docs/Get%20started#with-netlify), [Vercel](https://docs.ackee.electerious.com/#/docs/Get%20started#with-vercel), and [many more](https://docs.ackee.electerious.com/#/docs/Get%20started). [MongoDB Atlas](https://www.mongodb.com/pricing) can also provide you with a cloud-based Mongo database.
+You can set up your own Ackee instance pretty easily on [Heroku](https://docs.ackee.electerious.com/#/docs/Get%20started#with-heroku), [Netlify](https://docs.ackee.electerious.com/#/docs/Get%20started#with-netlify), [Vercel](https://docs.ackee.electerious.com/#/docs/Get%20started#with-vercel), and [many more](https://docs.ackee.electerious.com/#/docs/Get%20started). [MongoDB Atlas](https://www.mongodb.com/pricing) can also provide you with a cloud-based Mongo database.
 
 This module allows you to plug easily your Nuxt website to a domain on your Ackee installation!
 

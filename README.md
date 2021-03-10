@@ -9,7 +9,7 @@
 > Tracked without being tracked on Nuxt with [Ackee analytics](https://ackee.electerious.com)
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-- [📖 &nbsp;Read the documentation](https://nuxt-ackee.netlify.app)
+- [📖 &nbsp;Read the documentation](https://ackee.nuxtjs.org)
 
 ## Setup
 
