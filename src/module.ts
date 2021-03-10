@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import defu from 'defu'
 import { Module } from '@nuxt/types'
 import consola from 'consola'
-const log = consola.withScope('nuxt-ackee')
+const log = consola.withScope('nuxt:ackee')
 
 export interface ModuleOptions {
   server?: string;
@@ -27,7 +27,7 @@ const nuxtModule: Module<ModuleOptions> = /* async */ function (moduleOptions: M
   // const { nuxt } = this
 
   if (!options.server || !options.domainId) {
-    return log.warn('Could not activate nuxt-ackee module, `server` and `domainId` properties are required')
+    return log.warn('Could not activate @nuxtjs/ackee module, `server` and `domainId` properties are required')
   }
 
   this.addPlugin({
