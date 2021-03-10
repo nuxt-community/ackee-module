@@ -1,42 +1,48 @@
 {
-  "name": "nuxt-ackee",
-  "version": "2.0.0",
-  "description": "Nuxt.js module for Ackee analytics",
-  "repository": "git@github.com:bdrtsky/nuxt-ackee.git",
+  "name": "@nuxtjs/ackee",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "nuxt",
+    "module",
+    "nuxt-module"
+  ],
+  "repository": "nuxt-community/ackee-module",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "Sergey Bedritsky <sergey.bedritsky@gmail.com>"
-    }
-  ],
+  "main": "dist/module.js",
+  "types": "dist/module.d.ts",
   "files": [
-    "lib"
+    "dist",
+    "templates"
   ],
-  "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt example",
-    "lint": "eslint --ext .js,.vue example lib test",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "build": "siroc build",
+    "dev": "nuxt-ts example",
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "release": "yarn build && yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
   },
   "dependencies": {
     "ackee-tracker": "^5.0.1",
-    "defu": "^3.1.0"
+    "defu": "^2.0.4",
+    "consola": "^2.15.3"
   },
   "devDependencies": {
-    "@babel/core": "latest",
+    "@babel/plugin-transform-runtime": "latest",
     "@babel/preset-env": "latest",
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "@nuxtjs/module-test-utils": "latest",
+    "@babel/preset-typescript": "latest",
+    "@nuxt/test-utils": "latest",
+    "@nuxt/types": "latest",
+    "@nuxt/typescript-runtime": "latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@siroc/jest-preset": "latest",
+    "@types/jest": "latest",
     "babel-eslint": "latest",
     "babel-jest": "latest",
-    "codecov": "latest",
-    "eslint": "^7.7.0",
-    "husky": "latest",
+    "eslint": "latest",
     "jest": "latest",
     "nuxt-edge": "latest",
+    "siroc": "latest",
     "standard-version": "latest"
   },
   "publishConfig": {

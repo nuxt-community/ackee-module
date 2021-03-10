@@ -5,6 +5,9 @@
 const storageKey = '<%= options.storageKey %>'
 <% } %>
 
+/**
+ * @type {import('@nuxt/types').Plugin}
+ */
 export default function(context, inject) {
   <% if (options.detailed === 'opt-in') { %>
   const detailed = window.localStorage.getItem(storageKey) === 'opted-in'

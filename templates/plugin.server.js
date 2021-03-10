@@ -1,3 +1,6 @@
+/**
+ * @type {import('@nuxt/types').Plugin}
+ */
 export default function (context, inject) {
   inject('ackee', {
     <% if (['opt-in', 'opt-out'].includes(options.detailed)) { %>
