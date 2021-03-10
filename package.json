@@ -20,7 +20,7 @@
     "dev": "nuxt-ts example",
     "lint": "eslint --ext .js,.ts,.vue .",
     "release": "yarn build && yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+    "test": "yarn lint"
   },
   "dependencies": {
     "ackee-tracker": "^5.0.1",
