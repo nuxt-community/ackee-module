@@ -366,6 +366,4 @@ You're welcome to contribute to this module!
 
 ## License
 
-[MIT License](./LICENSE)
-
-Copyright (c) Sergey Bedritsky <sergey.bedritsky@gmail.com>
+[MIT License](https://github.com/nuxt-community/ackee-module/blob/main/LICENSE)

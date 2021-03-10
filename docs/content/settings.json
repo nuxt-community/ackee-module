@@ -5,7 +5,10 @@
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
   },
-  "github": "nuxt-community/ackee-module",
+  "github": {
+    "repo": "nuxt-community/ackee-module",
+    "branch": "main"
+  },
   "twitter": "@nuxt_js",
   "layout": "single",
   "defaultBranch": "master"
