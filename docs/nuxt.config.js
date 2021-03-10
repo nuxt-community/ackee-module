@@ -6,10 +6,13 @@ export default withDocus({
       primary: '#65deb1'
     }
   },
-  buildModules: ['nuxt-ackee'],
-  ackee: {
-    server: 'https://ackee.nuxtjs.com',
-    domainId: '',
-    detailed: true
+  generate: {
+    fallback: true
+  },
+  buildModules: [
+    'vue-plausible'
+  ],
+  plausible: {
+    domain: 'ackee.nuxtjs.org'
   }
 })
