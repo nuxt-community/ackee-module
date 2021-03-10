@@ -16,7 +16,7 @@ Tracked without being tracked on Nuxt with [Ackee analytics](https://ackee.elect
 
 <list :items="features"></list>
 
-[Check Release Notes](https://github.com/bdrtsky/nuxt-ackee/blob/master/CHANGELOG.md)
+[Check Release Notes](https://github.com/nuxt-community/ackee-module/blob/main/CHANGELOG.md)
 
 ## Ackee?
 
@@ -28,14 +28,14 @@ This module allows you to plug easily your Nuxt website to a domain on your Acke
 
 ## Setup
 
-Add `nuxt-ackee` dependency to your project:
+Add `@nuxtjs/ackee` dependency to your project:
 
 <code-group>
   <code-block label="Yarn" active>
 
 <!-- prettier-ignore -->
 ```bash
-yarn add --dev nuxt-ackee
+yarn add --dev @nuxtjs/ackee
 ```
 
   </code-block>
@@ -43,19 +43,19 @@ yarn add --dev nuxt-ackee
 
 <!-- prettier-ignore -->
 ```bash
-npm install --save-dev nuxt-ackee
+npm install --save-dev @nuxtjs/ackee
 ```
 
   </code-block>
 </code-group>
 
-Then add `nuxt-ackee` to the `buildModule` section of `nuxt.config.js` and configure your Ackee `server` and `domainId`:
+Then add `@nuxtjs/ackee` to the `buildModule` section of `nuxt.config.js` and configure your Ackee `server` and `domainId`:
 
 <!-- prettier-ignore -->
 ```javascript[nuxt.config.js]
 {
   buildModules: [
-    'nuxt-ackee'
+    '@nuxtjs/ackee'
   ],
   ackee: {
     server: 'https://example.com',
@@ -155,7 +155,7 @@ From now on, a new object will be available at the key `details` in the injected
 
 ## Configuration
 
-You can configure `nuxt-ackee` with the `ackee` property in your `nuxt.config.js` or directly when registering the module in the `buildModules` array by using the array syntax.
+You can configure `@nuxtjs/ackee` with the `ackee` property in your `nuxt.config.js` or directly when registering the module in the `buildModules` array by using the array syntax.
 
 <code-group>
   <code-block label="ackee key" active>
@@ -176,7 +176,7 @@ export default {
 ```javascript[nuxt.config.js]
 export default {
   buildModules: {
-    ['nuxt-ackee', {
+    ['@nuxtjs/ackee', {
       /* configuration */
     }]
   }
