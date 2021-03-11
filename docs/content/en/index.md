@@ -367,3 +367,5 @@ You're welcome to contribute to this module!
 ## License
 
 [MIT License](https://github.com/nuxt-community/ackee-module/blob/main/LICENSE)
+
+Thanks to [Sergey Bedritsky](https://github.com/bdrtsky) for the initial implementation and transfer to the community of [nuxt-ackee](https://github.com/bdrtsky/nuxt-ackee).

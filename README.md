@@ -44,6 +44,8 @@ yarn add @nuxtjs/ackee # or npm install @nuxtjs/ackee
 
 [MIT License](./LICENSE)
 
+Thanks to [Sergey Bedritsky](https://github.com/bdrtsky) for the initial implementation and transfer to the community of [nuxt-ackee](https://github.com/bdrtsky/nuxt-ackee).
+
 <!-- Badges -->
 
 [npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/ackee/latest.svg
