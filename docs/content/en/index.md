@@ -10,7 +10,7 @@ features:
   - Access to tracker with $ackee
 ---
 
-Tracked without being tracked on Nuxt with [Ackee analytics](https://ackee.electerious.com)
+Track without being tracked on Nuxt with [Ackee analytics](https://ackee.electerious.com)
 
 ## Features
 
