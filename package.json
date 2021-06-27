@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/ackee",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Nuxt.js module for Ackee analytics",
   "keywords": [
     "nuxt",
