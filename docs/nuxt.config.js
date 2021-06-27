@@ -1,11 +1,6 @@
 import { withDocus } from 'docus'
 
 export default withDocus({
-  docs: {
-    colors: {
-      primary: '#65deb1'
-    }
-  },
   generate: {
     fallback: true
   },
