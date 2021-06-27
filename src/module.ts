@@ -23,7 +23,7 @@ const DEFAULTS: ModuleOptions = {
 const CONFIG_KEY = 'ackee'
 
 const nuxtModule: Module<ModuleOptions> = /* async */ function (moduleOptions: ModuleOptions) {
-  const options = defu<ModuleOptions>(this.options[CONFIG_KEY], moduleOptions, DEFAULTS)
+  const options = defu<ModuleOptions, ModuleOptions>(this.options[CONFIG_KEY]!, moduleOptions, DEFAULTS)
   // const { nuxt } = this
 
   if (!options.server || !options.domainId) {

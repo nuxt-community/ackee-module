@@ -23,9 +23,9 @@
     "test": "yarn lint"
   },
   "dependencies": {
-    "ackee-tracker": "^5.0.1",
+    "ackee-tracker": "^5.1.0",
     "consola": "^2.15.3",
-    "defu": "^2.0.4"
+    "defu": "^5.0.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "latest",
