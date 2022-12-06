@@ -1,0 +1,6 @@
+const AppFooter_vue_vue_type_style_index_0_scoped_c8072d0a_transformed_true_lang = "footer[data-v-c8072d0a]{align-items:center;border-top:1px solid var(--color-gray-100);display:flex;height:var(--docus-footer-height)}footer[data-v-c8072d0a] .icon{height:var(--space-4);width:var(--space-4)}footer a[data-v-c8072d0a]{color:var(--color-gray-500)}:root.dark footer a[data-v-c8072d0a]{color:var(--color-gray-400)}footer a[data-v-c8072d0a]:hover{color:var(--color-gray-700)}:root.dark footer a[data-v-c8072d0a]:hover{color:var(--color-gray-200)}:root.dark footer[data-v-c8072d0a]{border-top-color:var(--color-gray-900)}footer .left[data-v-c8072d0a]{align-items:center;display:flex}footer .left p[data-v-c8072d0a]{font-size:var(--font-size-xs);font-weight:var(--font-weight-bold)}footer .left-icon[data-v-c8072d0a]{fill:currentcolor;margin-right:var(--space-2);width:var(--space-4)}footer .footer-container[data-v-c8072d0a],footer .right[data-v-c8072d0a]{align-items:center;display:flex;gap:var(--space-4)}footer .footer-container[data-v-c8072d0a]{flex-direction:row;height:100%;justify-content:space-between}";
+
+const AppFooterStyles_ba6f2107 = [AppFooter_vue_vue_type_style_index_0_scoped_c8072d0a_transformed_true_lang];
+
+export { AppFooterStyles_ba6f2107 as default };
+//# sourceMappingURL=AppFooter-styles.ba6f2107.mjs.map
