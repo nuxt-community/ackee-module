@@ -1,20 +1,23 @@
 ---
 title: "Documentation"
-description: "Track without being tracking on Nuxt with Ackee analytics"
-category: "Home"
-features:
+description: "Track without being tracked on Nuxt with Ackee analytics."
+layout: "default"
+aside: false
+---
+
+# Documentation
+
+Track without being tracked on Nuxt with Ackee analytics.
+
+---
+
+::list
   - Add Ackee to your Nuxt app in seconds
   - Ask for user consent easily
   - Automatic script loading
   - Automatic page tracking
   - Access to tracker with $ackee
----
-
-Track without being tracked on Nuxt with [Ackee analytics](https://ackee.electerious.com)
-
-## Features
-
-<list :items="features"></list>
+::
 
 [Check Release Notes](https://github.com/nuxt-community/ackee-module/blob/main/CHANGELOG.md)
 
@@ -30,24 +33,16 @@ This module allows you to plug easily your Nuxt website to a domain on your Acke
 
 Add `@nuxtjs/ackee` dependency to your project:
 
-<code-group>
-  <code-block label="Yarn" active>
-
+::code-group
 <!-- prettier-ignore -->
-```bash
+```bash [Yarn]
 yarn add --dev @nuxtjs/ackee
 ```
-
-  </code-block>
-  <code-block label="NPM">
-
 <!-- prettier-ignore -->
-```bash
+```bash [NPM]
 npm install --save-dev @nuxtjs/ackee
 ```
-
-  </code-block>
-</code-group>
+::
 
 Then add `@nuxtjs/ackee` to the `buildModule` section of `nuxt.config.js` and configure your Ackee `server` and `domainId`:
 
@@ -65,11 +60,9 @@ Then add `@nuxtjs/ackee` to the `buildModule` section of `nuxt.config.js` and co
 }
 ```
 
-<alert>
-
+::alert
 Use the `modules` property instead of `buildModules` if you are using `nuxt < 2.9.0`
-
-</alert>
+::
 
 Voilà! Your Nuxt application is ready to report to your Ackee domain~
 
@@ -77,11 +70,9 @@ Voilà! Your Nuxt application is ready to report to your Ackee domain~
 
 This module injects `$ackee` into your application. It contains an [`ackee-tracker` instance](https://github.com/electerious/ackee-tracker#%EF%B8%8F-instance-api) (but not only, see [asking for consent](#asking-for-consent)). You can use it to create and update new records, actions, and more.
 
-<alert>
-
+::alert
 This module already takes care of creating a new record on every page navigation. That's why in most cases you don't need to get beyond the above setup!
-
-</alert>
+::
 
 ### Sending Events
 
@@ -157,11 +148,9 @@ From now on, a new object will be available at the key `details` in the injected
 
 You can configure `@nuxtjs/ackee` with the `ackee` property in your `nuxt.config.js` or directly when registering the module in the `buildModules` array by using the array syntax.
 
-<code-group>
-  <code-block label="ackee key" active>
-
+::code-group
 <!-- prettier-ignore -->
-```javascript[nuxt.config.js]
+```javascript [ackee key]
 export default {
   ackee: {
     /* configuration */
@@ -169,11 +158,8 @@ export default {
 }
 ```
 
-  </code-block>
-  <code-block label="buildModules array">
-
 <!-- prettier-ignore -->
-```javascript[nuxt.config.js]
+```javascript [buildModules array]
 export default {
   buildModules: {
     ['@nuxtjs/ackee', {
@@ -182,9 +168,7 @@ export default {
   }
 }
 ```
-
-  </code-block>
-</code-group>
+::
 
 ### Properties
 
@@ -270,17 +254,13 @@ ackee: {
 }
 ```
 
-<alert type="warning">
-
+::alert{type="warning"}
 For this feature to work you need to set up an `Access-Control-Allow-Credentials` header on your Ackee installation, [more info](https://docs.ackee.electerious.com/#/docs/CORS%20headers#credentials).
+::
 
-</alert>
-
-<alert type="warning">
-
+::alert{type="warning"}
 This feature should be turned off when using a wildcard `Access-Control-Allow-Origin` header, [more info](https://docs.ackee.electerious.com/#/docs/Options#cors-headers).
-
-</alert>
+::
 
 #### storageKey
 
@@ -319,11 +299,9 @@ export default {
 
 This module globally injects a `$ackee` object, meaning that you can access it anywhere using `this.$ackee`. For plugins, `asyncData`, `nuxtServerInit` and middlewares, you can access it from `context.$ackee`.
 
-<alert type="warning">
-
+::alert{type="warning"}
 `details.*` methods and properties are only available when using `'opt-in'` or `'opt-out'` with the [detailed](#detailed) option.
-
-</alert>
+::
 
 ### Methods
 
