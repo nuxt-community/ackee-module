@@ -5,10 +5,10 @@ export default defineAppConfig({
       github: 'nuxt-community/ackee-module'
     },
     header: {
-      title: "Nuxt Ackee",
+      title: 'Nuxt Ackee',
       logo: true
     },
-    title: "Nuxt Ackee",
-    url: "https://ackee.nuxtjs.org",
-  },
-});
+    title: 'Nuxt Ackee',
+    url: 'https://ackee.nuxtjs.org'
+  }
+})
