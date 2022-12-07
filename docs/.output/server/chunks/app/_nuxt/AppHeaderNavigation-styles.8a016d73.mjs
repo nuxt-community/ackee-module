@@ -1,6 +1,0 @@
-const AppHeaderNavigation_vue_vue_type_style_index_0_scoped_42e8efe9_transformed_true_lang = "nav ul[data-v-42e8efe9]{align-items:center;display:flex;flex:1;justify-content:center;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}nav ul>*+*[data-v-42e8efe9]{margin-left:var(--space-2)}nav ul li[data-v-42e8efe9]{display:inline-flex;gap:var(--space-1)}nav ul .link[data-v-42e8efe9]{align-items:center;border-radius:var(--radii-md);display:flex;font-size:var(--font-size-sm);gap:var(--space-2);outline:none;padding:var(--space-2) var(--space-4);transition:background .2s ease}nav ul .link svg[data-v-42e8efe9]{display:inline-block}nav ul .link.active[data-v-42e8efe9],nav ul .link[data-v-42e8efe9]:active,nav ul .link[data-v-42e8efe9]:hover{background-color:var(--color-gray-100)}:root.dark nav ul .link.active[data-v-42e8efe9],:root.dark nav ul .link[data-v-42e8efe9]:active,:root.dark nav ul .link[data-v-42e8efe9]:hover{background-color:var(--color-gray-900)}nav ul .link.active[data-v-42e8efe9]{box-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);font-weight:var(--font-weight-semibold)}";
-
-const AppHeaderNavigationStyles_8a016d73 = [AppHeaderNavigation_vue_vue_type_style_index_0_scoped_42e8efe9_transformed_true_lang];
-
-export { AppHeaderNavigationStyles_8a016d73 as default };
-//# sourceMappingURL=AppHeaderNavigation-styles.8a016d73.mjs.map
