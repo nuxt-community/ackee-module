@@ -6,7 +6,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> Track without being tracked on Nuxt with [Ackee analytics](https://ackee.electerious.com)
+> Track without being tracked on Nuxt 2 with [Ackee analytics](https://ackee.electerious.com)
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 - [📖 &nbsp;Read the documentation](https://ackee.nuxtjs.org)
